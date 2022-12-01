@@ -23,7 +23,7 @@ def check_ip(address):
 def scan(target):
     ip_address = check_ip(target)
     print(f"\n-_0 looking for all open Ports on IP:{str(target)}")
-    for port in range(1, 688029):
+    for port in range(1, 100):
         scan_port(ip_address, port)
 
 
@@ -46,9 +46,12 @@ if ',' in targets:
 else:
     scan(targets)
 import time
+print(" ")
+print(" ")
+print(" ")
 print("Would you like to get premeium?")
 time.sleep(2)
-print("Stuff that comes with premium!")
+print("Premium comes with")
 time.sleep(5)
 print("[+]Faster connection?")
 time.sleep(1)
