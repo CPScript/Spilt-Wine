@@ -82,7 +82,6 @@ print ("Yes or No")
 choice = input("")
 
 if choice == "yes":
-    print("Please message this user on discord: Fe4RLess#0001")
-
+    print("CLICK this link to setup an option or payment plan.")
 if choice == "no":
   print("-_- OK -_-")
