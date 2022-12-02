@@ -83,5 +83,6 @@ choice = input("")
 
 if choice == "yes":
     print("CLICK this link to setup an option or payment plan.")
+    print(" https://replit.com/@356tgtg316/CPS-PS?v=1 ")
 if choice == "no":
   print("-_- OK -_-")
