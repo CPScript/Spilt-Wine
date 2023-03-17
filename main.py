@@ -1,4 +1,10 @@
+import os
+from os import system
 import pyfiglet
+
+os.system('pip3 install pyfiglet')
+os.system('pip install termcolor')
+          
 from termcolor import colored
 
 ascii_banner = pyfiglet.figlet_format("SpiltWine")
